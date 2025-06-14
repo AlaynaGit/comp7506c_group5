@@ -292,16 +292,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showNewsList() {
-        // Show the news container and hide the Learn fragment
+        // Show the news container
         View newsContainer = findViewById(R.id.news_container);
         if (newsContainer != null) {
             newsContainer.setVisibility(View.VISIBLE);
         }
-        
-        // Remove any existing fragments
-        getSupportFragmentManager().beginTransaction()
-                .remove(getSupportFragmentManager().findFragmentById(R.id.fragment_container))
-                .commit();
+
+        // Check if a Fragment exists before trying to remove it
+        androidx.fragment.app.Fragment existingFragment = getSupportFragmentManager().findFragmentById(R.id.fragment_container);
+        if (existingFragment != null) {
+            getSupportFragmentManager().beginTransaction()
+                    .remove(existingFragment)
+                    .commit();
+        }
     }
 
     private void filterByCategory(String category) {
