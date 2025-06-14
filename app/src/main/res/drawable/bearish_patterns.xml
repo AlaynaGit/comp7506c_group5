@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h400v300h-400z"/>
+
+    <!-- Title -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M20,30h360v2h-360z"/>
+
+    <!-- Shooting Star Pattern -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,100v40h20v-40z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60,100v30"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M55,130h10"/>
+
+    <!-- Bearish Engulfing Pattern -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M150,100v20h20v-20z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M150,100v10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M145,110h10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M150,120v20h20v-20z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M150,120v10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M145,130h10"/>
+
+    <!-- Evening Star Pattern -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M250,100v30h20v-30z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M260,100v10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M255,110h10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M250,140v10h20v-10z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M260,140v10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M255,150h10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M250,180v30h20v-30z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M260,180v10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M255,190h10"/>
+
+    <!-- Labels -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M40,150h80v2h-80z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M140,150h80v2h-80z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M240,150h80v2h-80z"/>
+
+</vector> 

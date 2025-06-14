@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h400v300h-400z"/>
+
+    <!-- Title -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M20,30h360v2h-360z"/>
+
+    <!-- Doji Pattern -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,100v20h20v-20z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60,100v-20"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M55,80h10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60,120v20"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M55,140h10"/>
+
+    <!-- Spinning Top Pattern -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M150,100v20h20v-20z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M160,100v-15"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M155,85h10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M160,120v15"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M155,135h10"/>
+
+    <!-- High Wave Pattern -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M250,100v20h20v-20z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M260,100v-30"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M255,70h10"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M260,120v30"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M255,150h10"/>
+
+    <!-- Labels -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M40,150h80v2h-80z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M140,150h80v2h-80z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M240,150h80v2h-80z"/>
+
+</vector> 
